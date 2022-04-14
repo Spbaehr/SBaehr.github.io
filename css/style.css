@@ -427,6 +427,10 @@ p {
 	-webkit-align-items: center;
 	align-items: center;
 }
+.swiper-slide {
+	height: 50%;
+	width: 100%;
+}
 
  :root {
 	--swiper-theme-color: #000;
