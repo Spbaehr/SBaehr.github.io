@@ -412,14 +412,14 @@ p {
 }
 
 .btn-proj {
-  background-color: white; 
-  color: black; 
-  border: 2px solid black;
+  background-color: #e9e8e6; 
+  color: #000000; 
+  border: 2px solid #000000;
 }
 
 .btn-proj:hover {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #e9e8e6;
 }
 
 .swiper-container {
