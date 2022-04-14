@@ -427,7 +427,7 @@ p {
 	-webkit-align-items: center;
 	align-items: center;
 }
-.swiper-slide {
+.swiper-slide img{
 	height: 50%;
 	width: 100%;
 }
