@@ -513,18 +513,26 @@ div.elem-group {
   font-size: medium;
 }
 
-.input, .select, .textarea {
+.input, .select {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
   font-size: medium;
   font-family: 'Aleo';
-  width: 500px;
+  width: 80%;
   padding: 8px;
 }
 
 .textarea {
-  height: 250px;
+	border-radius: 5px;
+  	height: 250px;
+  	vertical-align: -webkit-baseline-middle;
+	border: 1px solid #ccc;
+  	box-sizing: border-box;
+  	font-size: medium;
+	font-family: 'Aleo';
+	width: 80%;
+  	padding: 8px;
 }
 
 .contact-form {
