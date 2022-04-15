@@ -190,6 +190,7 @@ th {
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
+  font-size: medium;
 }
 
 button {
@@ -215,6 +216,12 @@ textarea {
 button,
 input {
   overflow: visible;
+}
+
+input {
+    vertical-align: middle;
+    width: 80%;
+    font-size: medium;
 }
 
 button,
@@ -264,6 +271,10 @@ input[type="month"] {
 textarea {
   overflow: auto;
   resize: vertical;
+  font-size: medium;
+  vertical-align: -webkit-baseline-middle;
+  width: 80%;
+  height: 100px;
 }
 
 fieldset {
