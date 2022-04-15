@@ -502,6 +502,31 @@ p {
 
 /* Contact Form */
 
+div.elem-group {
+  margin: 40px 0;
+}
+
+.label {
+  display: block;
+  font-family: 'Aleo';
+  padding-bottom: 4px;
+  font-size: 1.25em;
+}
+
+.input, .select, .textarea {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Aleo';
+  width: 500px;
+  padding: 8px;
+}
+
+.textarea {
+  height: 250px;
+}
+
 .contact-form {
 	font-size: 1.2em;
 	padding-bottom: 11rem;
