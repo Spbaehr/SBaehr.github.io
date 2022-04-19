@@ -385,8 +385,8 @@ p {
 	background-image: url("../img/e1-vert.png");
 }
 
-.background-2 {
-	background-image: url("../img/Portrait.png");
+.background-lad4 {
+	background-image: url("../img/lad-rail.JPG");
 }
 
 .split-image-right {
@@ -496,8 +496,12 @@ p {
 	padding-bottom: 10rem;
 }
 
-.sm_icon{
+.sm_icon {
 	width: 80px;
+}
+
+.sm_icon:hover {
+	filter: invert(40%);
 }
 
 /* Contact Form */

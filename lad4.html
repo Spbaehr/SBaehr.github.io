@@ -35,7 +35,7 @@
       <div class="Container">
          <div class="Content">
             <div class="Wrapper">
-               <div class="LeftContent col-xl-6 col-sm-12 split-image-left background-1">
+               <div class="LeftContent col-xl-6 col-sm-12 split-image-left background-lad4">
                </div>
                <div class="RightContent col-xl-6 col-sm-12 split-image-right">
                   <div class="row justify-content-center">
@@ -43,21 +43,28 @@
                         <div class="row">
                            <div class="">
                               <p class="bold" style="text-align:center">
-                                 “In the van, we can see the rocket in the distance, lit up and shining, an obelisk. In reality, of course, it’s a 4.5-megaton bomb loaded with explosive fuel, which is why everyone else is driving away from it.” - Chris Hadfield
+                                 LAD-4 was the first major project that I worked on in SEB. My major contributions included the design and manufacturing of the custom composite airframe, the manufacturing of the modular fin can used to fixture the fins, and assembly of the commercial soiid rocket motor.
+                                 <img class="img-fluid pt-5 pb-5" src="img/lad4-group.JPG" alt="Photo">
                               </p>
                               <p>
-                                 I am a current 4th year student at UC Berkeley pursuing a BS in Mechanical Engineering w/ a concentration in Aerospace. I have an immense passion for space fueled by interest in the unkown, and by my drive for conquering new challenges. This led me to join UC Berkeley's liquid bi-propellant rocketry team Space Enterprise at Berkeley (SEB) my sophomore year. 
-                                 The major goal of the team to become the first collegiate team to successfully launch a liquid bi-propellant to the Kármán line. In the path to this goal, we haved succesfuly launched 2 solid rockets with apogees above 11,000 ft, and successfuly perfomred 2 static fires of our methalox engine designed for an apogee of 45,000 ft. 
-                              <img class="img-fluid pt-5 pb-5" src="img/casual.JPG" alt="Photo">
+                                 For making the airframe, I helped manufacture the two tubes that would comprise the main rocket body and a nose cone. The parts were composed of a fiberglass and epoxy composite manufactured using the hand-layup method. A mandrel was used for the shaping of the tubes while a negative mold was used for the nose cone.
+                                 A final layer of carbon fibver and epoxy was then aided for an aesthetic appeal. The separate sections were then connected using a phenolic tubing of slightly smaller diamter and Rivnuts.
+                                 <center>
+                                    <video width="70%" height="50%" controls>
+                                    <source src="videos/lad4-launch.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                    </video>
+                                    <br>
+                                    In-flight video of launch (2x speed)
+                                 </center>
+                                 <br>
+                                 The fin can for the rocket was deisgned to be modular allowing for easy installement and removal of indiviual fins. A through-wall mounting system was designed for this purpose. It included centering rings attached to the motor housing that would attach to the roots of the fins as well.
+                                 Slots were then cut into the aft section of the rocket that mated with slots cut into the leading edge of the fins. Lastly, L-brackets were attached to the back edge of the fins and the aft airframer section to prevent fin oscillation and ensure alignment.
                               </p>
-                              <p>
-                                 During my time on the team, I've utilized my engineering skills for objectives such designing our main valve assembly for propellant feed, and manufacturing the conmposite airframes for our solid rocket projects. Through my time on the team, I have become a person who loves being able to get hands-on experience with hardware and enjoys solving challenging issues. 
-                                 I've learned a great deal about the considerations that go into developing rockets including not just the standard factors such as cost, manufacturability, and mass but also in terms of safety, testing procedures/requirements, and the important yet dreadful process of documnentaion. 
-                              <br><br>
-                                 On the off chanceW that I am not working on SEB or on my course work, I enjoy being active by playing soccer, going camping/hiking, and biking. On days inside I enjoy watching soccer, Star Wars, and Marvel. Sometimes I'll also play games such as Valorant and Minecraft. 
-                                 Beyond that, I am person who really trys to enjoy the small things in life like just hanging out with friends and has a more mellow attitude towards life. 
-                              </p>
-                              <img class="signature float-right" src="img/signature.png" alt="Signature">
+                              <button class="collapsible1">LAD-4 Report PDF</button>
+                              <div class="content1">
+                                <iframe src="pdf/LAD-4 Final Report.pdf" width="100%" height="500px"></iframe>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -73,6 +80,21 @@
       <script src="js/script.js"></script>
       <script>
          new WOW().init();
+
+         var coll = document.getElementsByClassName("collapsible1");
+         var i;
+
+         for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+               this.classList.toggle("active1");
+               var content = this.nextElementSibling;
+               if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+               } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+               }
+            });
+         }
       </script>
       <!-- End Javascript -->
    </body>
